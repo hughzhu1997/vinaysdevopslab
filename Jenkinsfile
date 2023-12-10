@@ -23,14 +23,15 @@ pipeline{
             }
         }
 
-        // Stage3 : Deploying
-        stage ('Deploying'){
+           // Stage3 : Deploying
+        
+         stage ('Deploy'){
             steps {
-                echo ' Deploying......'
-               
+                echo ' deploying......'
 
             }
         }
+       
 
         
         
